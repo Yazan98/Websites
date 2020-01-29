@@ -39,6 +39,9 @@ export class ToolbarComponent extends Component {
                                     <Button raised color="accent">
                                         About
                                     </Button>
+                                    <Button raised color="accent">
+                                        Examples
+                                    </Button>
                                 </Link>
                                 </div>
                             </Router>
