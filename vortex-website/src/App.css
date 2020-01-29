@@ -1,0 +1,56 @@
+.MainContainer {
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    /* object-fit: contain; */
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+    margin:auto;
+}
+
+.MainComponents {
+    /* background-color: rgba(100,100,100,0.5); */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    height: 650px;
+    overflow: auto;
+    position: relative;
+}
+
+.Text {
+    color: white;
+}
+
+.Des {
+    width: 700px;
+}
+
+.GridContainer {
+    float: left;
+}
+
+.myButton {
+	border-radius:42px;
+	border:3px solid #fafafa;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+    font-size:20px;
+    padding:19px 53px;
+    padding-right: 80px;
+    padding-left: 80px;
+	text-decoration:none;
+}
+
+a {
+    text-decoration: none;
+}

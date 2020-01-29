@@ -1,0 +1,32 @@
+.PointsComponent {
+    height: 700px;
+    font-family: Arial, Helv etica, sans-serif;
+}
+
+.BigText {
+    color: #fc7061;
+    text-align: center;
+    padding: 60px;
+}
+
+.Title {
+    margin: 0%;
+    color: #fc7061;
+}
+
+.Logo {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+.Item {
+    text-align: center;
+}
+
+.Description {
+    width: 350px;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 50px;
+}
