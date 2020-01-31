@@ -4,8 +4,9 @@ import Image from '../images/image.jpeg';
 import GithubImage from '../images/github.png';
 import MailLogo from '../images/mail.png';
 import LocationLogo from '../images/location.png';
+import LinkedInLogo from '../images/linkedin.png';
 import '../App.css';
-import { Grid, Paper } from '@material-ui/core';
+import { Grid, Paper, Button, Link } from '@material-ui/core';
 
 
 class ProfileComponent extends Component {
@@ -28,7 +29,7 @@ class ProfileComponent extends Component {
                         <h1>Yazan Tarifi</h1>
                     </Grid>
                     <Grid item xs={12}>
-                    <p>Android Developer , Website Developer (ReactJs), Backend Developer (SpringBoot , Ktor) Frameworks</p>
+                    <p>Code Relation (One To Many) one person with Many Frameworks, Platforms :D always trying to build Tools (Android, SpringBoot, Ktor, ReactJs)</p>
                     </Grid>
                     <Grid container xs={12}>
                         <Grid item xs={1}>
@@ -54,7 +55,16 @@ class ProfileComponent extends Component {
                             <p>localhost</p>
                         </Grid>
                     </Grid>
+                    <Grid container xs={12}>
+                        <Grid item xs={1}>
+                            <img src={LinkedInLogo} height="20" width="20"/>
+                        </Grid>
+                        <Grid item xs={11}>
+                            <Button><a href="https://www.linkedin.com/in/yazan-tarifi-106282192/">Linkedin Profile</a></Button>
+                        </Grid>
+                    </Grid>
                    </Grid>
+                   <div className="Test"></div>
                </Paper>
                 
             </div>
