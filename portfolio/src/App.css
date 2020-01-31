@@ -30,3 +30,16 @@ a {
 .Test {
   height: 1000px;
 }
+
+.Projects {
+  padding: 30px;
+}
+
+.ProjectItem {
+  margin: 20px;
+}
+
+.Item {
+  width: 300px;
+  padding: 10px;
+}

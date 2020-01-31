@@ -9,11 +9,11 @@ class MainPageComponent extends Component {
     render() {
         return (
             <div className="MainPage">
-                <Grid container xs={6}>
-                    <Grid item xs={2}>
-                    <ProfileComponent />
-                    </Grid>
+                <Grid container spaces={8}>
                     <Grid item xs={4}>
+                        <ProfileComponent />
+                    </Grid>
+                    <Grid item xs={8}>
                         <ProjectsComponent />
                     </Grid>
                 </Grid>
