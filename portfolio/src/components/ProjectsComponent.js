@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Paper, Grid, Button } from '@material-ui/core';
+import ExampleComponent from "react-rounded-image";
+import '../App.css';
 
 class ProjectsComponent extends Component {
 
@@ -13,7 +15,8 @@ class ProjectsComponent extends Component {
                     "hasCode": true,
                     "Language": "Kotlin",
                     "Description": "Base Code To Build Better Android Applications With Reactive Operations, Mvvm, etc",
-                    "Link": "https://github.com/Yazan98/Vortex"
+                    "Link": "https://github.com/Yazan98/Vortex",
+                    "Color": "#f98909"
                 },
                 {
                     "projectName": "Vortex SpringBoot",
@@ -21,7 +24,8 @@ class ProjectsComponent extends Component {
                     "hasCode": true,
                     "Language": "Kotlin",
                     "Description": "Ready Operations To Build Monoltic Applications (Server Side)",
-                    "Link": "https://github.com/Yazan98/Vortex/tree/master/vortex-spring-boot"
+                    "Link": "https://github.com/Yazan98/Vortex/tree/master/vortex-spring-boot",
+                    "Color": "#f98909"
                 },
                 {
                     "projectName": "Destiny",
@@ -29,7 +33,8 @@ class ProjectsComponent extends Component {
                     "hasCode": true,
                     "Language": "Kotlin",
                     "Description": "Android Application Built With Latest Technologies With Vortex Infastructure",
-                    "Link": "https://github.com/Yazan98/Destiny"
+                    "Link": "https://github.com/Yazan98/Destiny",
+                    "Color": "#f98909"
                 },
                 {
                     "projectName": "Destiny Api",
@@ -37,7 +42,8 @@ class ProjectsComponent extends Component {
                     "hasCode": true,
                     "Language": "Kotlin",
                     "Description": "Backend Project With Common Techniques With Vortex Infastructure, MySql Database, Security",
-                    "Link": "https://github.com/Yazan98/Destiny-Api"
+                    "Link": "https://github.com/Yazan98/Destiny-Api",
+                    "Color": "#f98909"
                 },
                 {
                     "projectName": "Mwarrid",
@@ -45,15 +51,17 @@ class ProjectsComponent extends Component {
                     "hasCode": true,
                     "Language": "Kotlin",
                     "Description": "Merchants With Suppliers Managment",
-                    "Link": "https://play.google.com/store/apps/details?id=com.noventapp.mwarrid"
+                    "Link": "https://play.google.com/store/apps/details?id=com.noventapp.mwarrid",
+                    "Color": "#f98909"
                 },
                 {
                     "projectName": "Diretto",
                     "category": "Android",
                     "hasCode": true,
-                    "Language": "Kotlin",
+                    "Language": "Java",
                     "Description": "Food Delivery (Client, Driver) Apps",
-                    "Link": "https://play.google.com/store/apps/details?id=com.noventapp.direct.user"
+                    "Link": "https://play.google.com/store/apps/details?id=com.noventapp.direct.user",
+                    "Color": "#e76f00"
                 },
                 {
                     "projectName": "Thentrom",
@@ -61,7 +69,8 @@ class ProjectsComponent extends Component {
                     "hasCode": true,
                     "Language": "Kotlin",
                     "Description": "Intellij Custom Theme",
-                    "Link": "https://github.com/Yazan98/Thentrom"
+                    "Link": "https://github.com/Yazan98/Thentrom",
+                    "Color": "#f98909"
                 },
                 {
                     "projectName": "Wintrop",
@@ -69,7 +78,8 @@ class ProjectsComponent extends Component {
                     "hasCode": true,
                     "Language": "Kotlin",
                     "Description": "Weather App With Latest Technolgies, Vortex Infastructure, Realm Database",
-                    "Link": "https://github.com/Yazan98/Wintrop"
+                    "Link": "https://github.com/Yazan98/Wintrop",
+                    "Color": "#f98909"
                 },
                 {
                     "projectName": "Groupy",
@@ -77,7 +87,8 @@ class ProjectsComponent extends Component {
                     "hasCode": true,
                     "Language": "Kotlin",
                     "Description": "Graduation Project Powered By Firebase, Mvc",
-                    "Link": "https://github.com/Yazan98/Groupy"
+                    "Link": "https://github.com/Yazan98/Groupy",
+                    "Color": "#f98909"
                 },
                 {
                     "projectName": "Drasati",
@@ -85,7 +96,8 @@ class ProjectsComponent extends Component {
                     "hasCode": false,
                     "Language": "Kotlin",
                     "Description": "Education Application Powered By Atto",
-                    "Link": "https://github.com/Yazan98"
+                    "Link": "https://github.com/Yazan98",
+                    "Color": "#f98909"
                 },
                 {
                     "projectName": "Atto",
@@ -93,7 +105,8 @@ class ProjectsComponent extends Component {
                     "hasCode": true,
                     "Language": "Kotlin",
                     "Description": "Base Code To Build Android Applications With Mvc View Handling",
-                    "Link": "https://github.com/Yazan98/Atto"
+                    "Link": "https://github.com/Yazan98/Atto",
+                    "Color": "#f98909"
                 },
                 {
                     "projectName": "Ktor Sample",
@@ -101,7 +114,8 @@ class ProjectsComponent extends Component {
                     "hasCode": true,
                     "Language": "Kotlin",
                     "Description": "Simple Ktor Application (Backend Side) With Mongo Database, Firebase",
-                    "Link": "https://github.com/Yazan98/Ktor-Sample"
+                    "Link": "https://github.com/Yazan98/Ktor-Sample",
+                    "Color": "#f98909" 
                 }
             ]
         };
@@ -124,13 +138,26 @@ class ProjectsComponent extends Component {
                                 </Grid>
                                 <Grid container xs={12}>
                                     <Grid item xs={6}>
-                                        {d.Language}
+                                        <Grid container xs={10}>
+                                            <Grid item xs={2}>
+                                            <div className="ImageColor">
+                                            <ExampleComponent
+                                                id="ImageColor"
+                                                roundedColor={d.Color}
+                                                imageWidth="15"
+                                                imageHeight="15"/>
+                                            </div>
+                                            </Grid>
+                                            <Grid item xs={5}>
+                                            {d.Language}
+                                            </Grid>
+                                        </Grid>
                                     </Grid>
                                     <Grid item xs={3}>
-                                        <Button>View</Button>
+                                        <Button onClick={this.onItemClicked}>View</Button>
                                     </Grid>
                                     <Grid item xs={3}>
-                                        <Button>Github</Button>
+                                        <Button onClick={() => this.onItemGithubView(d.Link)}>Github</Button>
                                     </Grid>
                                 </Grid>
                             </Grid>
@@ -140,6 +167,14 @@ class ProjectsComponent extends Component {
                 </table>
             </div>
         );
+    }
+
+    onItemClicked() {
+        
+    }
+
+    onItemGithubView(link:String) {
+        window.open(link);
     }
 }
 
