@@ -34,7 +34,7 @@
             <div class="row" id="SecondItem">
                 <div class="col-sm">
                     <div class="card">
-                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                       <img src="https://img.icons8.com/nolan/64/plugin.png" width="70" height="70">
                         <div class="container">
                             <h4><b>Thentrom</b></h4>
                             <p>Intellij Plugin To Change IDE Theme To Orange Color (Kotlin Apps)</p>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="col-sm">
                     <div class="card">
-                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <img src="https://img.icons8.com/bubbles/50/000000/actor.png" width="70" height="70">
                         <div class="container">
                             <h4><b>Actor</b></h4>
                             <p>SpringBoot Annotation Processor To Generate Postman Collections From Controllers</p>
@@ -64,7 +64,7 @@
             <div class="row" id="SecondItem">
                 <div class="col-sm">
                     <div class="card">
-                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <img src="https://img.icons8.com/color/48/000000/group-foreground-selected.png" width="70" height="70">
                         <div class="container">
                             <h4><b>Groupy</b></h4>
                             <p>Graduation Project For Task Managment , Chat , Kotlin, Vortex-Firebase</p>
@@ -73,7 +73,7 @@
                 </div>
                 <div class="col-sm">
                     <div class="card">
-                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <img src="https://img.icons8.com/nolan/64/saving-book.png" width="70" height="70">
                         <div class="container">
                             <h4><b>Dirasati</b></h4>
                             <p>Subjects Tutorials With Chat Experience, Kotlin , Atto</p>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-sm">
                     <div class="card">
-                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <img src="https://img.icons8.com/ios/50/000000/settings.png" width="70" height="70">
                         <div class="container">
                             <h4><b>Atto</b></h4>
                             <p>Base Code To Build Android Applications With Mvp Implementation</p>
@@ -94,8 +94,8 @@
             <div class="row" id="SecondItem">
                 <div class="col-sm">
                     <div class="card">
-                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
-                        <div class="container">
+                        <img src="https://img.icons8.com/pastel-glyph/64/000000/source-code.png" width="70" height="70">
+                        <div class="container"> 
                             <h4><b>Ktor App</b></h4>
                             <p>Api Example About Ktor Framework , Mongo Database</p>
                         </div>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="col-sm">
                     <div class="card">
-                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <img src="https://img.icons8.com/ios/50/000000/settings.png" width="70" height="70">
                         <div class="container">
                             <h4><b>Atto Gradle</b></h4>
                             <p>Gradle Plugin To Config Atto Android Dependencies</p>
@@ -112,10 +112,10 @@
                 </div>
                 <div class="col-sm">
                     <div class="card">
-                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <img src="https://img.icons8.com/nolan/64/love-book.png" width="70" height="70">
                         <div class="container">
                             <h4><b>Bookie</b></h4>
-                            <p>Simple Api With SpringBoot (Books)</p>
+                            <p>Simple Api With SpringBoot (Books), Java , Standered Implementation, MySql</p>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ export default {
 <style scoped>
 
 .ServicesComponent {
-    height: 800px;
+    height: 1300px;
     background-color: #262626;
     color: white;
     font-family: 'Saira Semi Condensed', sans-serif;
@@ -167,6 +167,8 @@ p {
   text-align: center;
   display:block;
   margin:auto;
+  border-radius: 0.4em;
+  padding: 1em;
 }
 
 /* On mouse-over, add a deeper shadow */
