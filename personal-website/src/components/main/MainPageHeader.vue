@@ -63,7 +63,7 @@ export default {
   height: 700px;
   color: white;
   margin: 0%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 #Item {

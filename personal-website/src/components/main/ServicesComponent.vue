@@ -1,5 +1,6 @@
 <template>
     <div class="ServicesComponent">
+        <h5 class="Title">What I Do</h5>
         <div class="container">
             <div class="row">
                 <div class="col-sm">
@@ -25,8 +26,8 @@
                 <div class="col-sm">
                     <img src="https://img.icons8.com/cotton/64/000000/bookmark-ribbon.png">
                     <p>Configuration</p>
-                    <h5>Gradle Plugins</h5>
-                    <p>Design, Build Gradle Plugins For Android Applications for Better Gradle Configutation</p>
+                    <h5>Plugins</h5>
+                    <p>Design, Build (Gradle, Intellij, CLI) For Android Applications for Better Gradle Configutation</p>
                 </div>
                 <div class="col-sm">
                     <img src="https://img.icons8.com/cotton/64/000000/source-code--v2.png">
@@ -48,11 +49,16 @@
 <style scoped>
 
 .ServicesComponent {
-    height: 500px;
+    height: 600px;
     background-color: #262626;
     color: white;
+    font-family: 'Saira Semi Condensed', sans-serif;
 }
 
+.Title {
+    text-align: center;
+    padding: 2em;
+}
 
 p {
   margin: 0%;
