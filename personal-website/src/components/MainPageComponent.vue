@@ -1,40 +1,50 @@
 <template>
-  <div class="hello">
-    <main role="main">
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div>
-          <div id="NavBar" class="navbar navbar-transparent">
-            <h5 class="my-0 mr-md-auto font-weight-normal">Destiny Admin</h5>
-            <nav class="my-2 my-md-0 mr-md-3">
-              <router-link to class="p-2 text-white">Home</router-link>
-              <router-link to="/profiles" class="p-2 text-white">Profiles</router-link>
-              <router-link to="/about" class="p-2 text-white">About</router-link>
-              <router-link to="/profiles/register" class="btn btn-outline-primary">Register</router-link>
-            </nav>
-          </div>
-        </div>
-        <div class="container">
-          <h1 class="display-3">Destiny Restaurant</h1>
-          <p>Million Recipe At The System Register Now To Get Recipes, Create Orders, etc</p>
-          <p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a>
-          </p>
-        </div>
-      </div>
+  <div class="MainContainer">
+    <!--Start Toolbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="MainToolbar">
+      <a class="navbar-brand" id="Item" href="#">Personal Website</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>
-          &copy; 2017-2019 Company, Inc. &middot;
-          <a href="#">Privacy</a> &middot;
-          <a href="#">Terms</a>
-        </p>
-      </footer>
-    </main>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" id="Item" href="#"><router-link to="" class="p-2 text-white">Home</router-link><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="Item" href="#"><router-link to="/projects" class="p-2 text-white">Projects</router-link><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" id="Item" href="#"><router-link to="/skills" class="p-2 text-white">Skills</router-link><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--End Toolbar-->
+
+    <!--Start Main Area-->
+    <div class="MainArea">
+      <p>Frontend Developer</p>
+      <h1>Yazan Tarifi</h1>
+      <p>
+         I always try to build auxiliary tools to develop OOP Projects ... Likes to build and modify open source projects
+          ... I have a complete passion and super fast learning when trying new technologies
+         Solid Understanding of mobile and Software life cycle (SDLC) with all architectures for mobile frameworks
+      </p>
+    </div>
+    <!--End Main Area-->
   </div>
 </template>
 
@@ -48,48 +58,31 @@ export default {
 </script>
 
 <style scoped>
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+.MainContainer {
+  background-color: #262626;
+  height: 500px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+#Item {
+  color: white;
 }
 
-img {
-  object-fit: none; /* Do not scale the image */
-  object-position: center; /* Center the image within the element */
-  width: 100%;
-  max-height: 250px;
-  margin-bottom: 1rem;
+#MainToolbar {
+  padding: 1em;
 }
 
-.jumbotron {
-  background-image: url("https://urbandine.templates.editmysite.com/uploads/8/9/5/0/89502725/background-images/39374136.png");
-  height: 800px;
+#MainArea {
+  text-align: center;
+  align-content: center;
+  width: 50%; 
+  padding: 2em;
+  text-align: center;
   vertical-align: middle;
-  padding: 0%;
-  background-repeat: no-repeat;
-  background-position: undefined undefined;
-  background-size: 100%;
-  background-color: transparent;
-  background-size: cover;
-}
-
-.container {
-  padding-top: 5em;
-  color: white;
-}
-
-#NavBar {
-  color: white;
-  padding: 20px;
+  line-height: 90px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
