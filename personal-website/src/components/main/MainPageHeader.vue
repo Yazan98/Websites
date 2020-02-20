@@ -1,7 +1,7 @@
 <template>
   <div class="MainContainer">
     <!--Start Main Area-->
-    <particles-bg color="#262626" type="random" :bg="true" />
+    <!-- <particles-bg color="#262626" type="random" :bg="true" /> -->
     <ToolbarComponent />
     <div class="MainArea">
       <p>Frontend Developer</p>
@@ -36,15 +36,15 @@ export default {
 
 <style scoped>
 .MainContainer {
-  /* background-color: #262626; */
+  background-color: #ECECF4;
   height: 700px;
-  color: white;
+  color: black;
   margin: 0%;
   font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 #Item {
-  color: white;
+  color: black;
 }
 
 #MainToolbar {
@@ -72,7 +72,7 @@ h1 {
 p {
   margin: 0%;
   padding: 0%;
-  color: #7F7F7F;
+  color:black;
 }
 
 .btn {
