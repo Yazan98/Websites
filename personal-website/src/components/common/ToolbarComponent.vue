@@ -1,7 +1,7 @@
 <template>
     <div class="ToolbarComponent">
          <!--Start Toolbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="MainToolbar">
+    <nav class="navbar navbar-expand-lg bg-dark" id="MainToolbar">
       <a class="navbar-brand" id="Item" href="#">Personal Website</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@
 .MainContainer {
   background-color: #262626;
   height: 700px;
-  color: white;
+  color: black;
   margin: 0%;
   font-family: 'Saira Semi Condensed', sans-serif;
 }

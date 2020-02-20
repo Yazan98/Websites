@@ -63,9 +63,6 @@ export default {
   transform: translate(-50%, -50%); 
 }
 
-.MainArea:focus {
-    border: 3px solid #cc0000;
-}
 
 h1 {
   margin: 0%;
@@ -89,6 +86,8 @@ p {
   opacity: 0.6;
   transition: 0.3s;
 }
+
+
 
 .btn:hover {opacity: 1}
 

@@ -140,7 +140,7 @@ export default {
 
 .ServicesComponent {
     height: 1300px;
-    background-color: #262626;
+    /* background-color: #262626; */
     color: white;
     font-family: 'Saira Semi Condensed', sans-serif;
 }

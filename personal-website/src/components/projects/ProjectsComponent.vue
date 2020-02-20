@@ -21,7 +21,7 @@ export default {
 <style scoped>
 
 .ProjectsComponent {
-    background-color: #262626;
+    /* background-color: #262626; */
   height: 700px;
   color: white;
   margin: 0%;
