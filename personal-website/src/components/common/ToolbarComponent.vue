@@ -18,6 +18,9 @@
           <li class="nav-item active">
             <a class="nav-link" id="Item"><router-link to="/skills" class="p-2 text-white">Skills</router-link><span class="sr-only">(current)</span></a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" id="Item"><router-link to="/contact" class="p-2 text-white">Contact</router-link><span class="sr-only">(current)</span></a>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown
