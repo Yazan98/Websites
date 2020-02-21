@@ -48,7 +48,7 @@ export default {
     background-color: #ECECF4;
     color: black;
     padding: 1em;
-    height: 250px;
+    height: auto;
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 

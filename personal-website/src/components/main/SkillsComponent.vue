@@ -62,7 +62,7 @@
     background-color: #ECECF4;
     color: black;
     padding: 1em;
-    height: 400px;
+    height: auto;
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
@@ -87,9 +87,11 @@ h4 {
   text-align: center;
   display:block;
   align-self: center;
+  margin-top: 1em;
   margin:auto;
   border-radius: 0.4em;
   padding: 2em;
+  margin-top: 1em;
   text-align: center;
 }
 

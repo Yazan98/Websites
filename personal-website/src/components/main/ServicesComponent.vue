@@ -61,7 +61,7 @@
 <style scoped>
 
 .ServicesComponent {
-    height: 600px;
+    height: auto;
     background-color: #ECECF4;
     color: black;
     font-family: 'Saira Semi Condensed', sans-serif;
@@ -86,6 +86,7 @@ p {
   text-align: center;
   display:block;
   margin:auto;
+  margin-top: 1em;
   border-radius: 0.4em;
   padding: 1em;
   text-align: start;

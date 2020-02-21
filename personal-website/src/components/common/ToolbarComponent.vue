@@ -1,7 +1,7 @@
 <template>
     <div class="ToolbarComponent">
          <!--Start Toolbar-->
-    <nav class="navbar navbar-expand-lg bg-light" id="MainToolbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="MainToolbar">
       <a class="navbar-brand" id="Item" href="#">Personal Website</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -10,16 +10,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" id="Item"><router-link to="/" class="p-2 text-white">Home</router-link><span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="Item"><router-link to="/" class="p-2 text-black">Home</router-link><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="Item"><router-link to="/projects" class="p-2 text-white">Projects</router-link><span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="Item"><router-link to="/projects" class="p-2 text-black">Projects</router-link><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" id="Item"><router-link to="/skills" class="p-2 text-white">Skills</router-link><span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="Item"><router-link to="/skills" class="p-2 text-black">Skills</router-link><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" id="Item"><router-link to="/contact" class="p-2 text-white">Contact</router-link><span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="Item"><router-link to="/contact" class="p-2 text-black">Contact</router-link><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -43,10 +43,14 @@
 <style scoped>
 .MainContainer {
   background-color: #262626;
-  height: 700px;
+  height: auto;
   color: black;
   margin: 0%;
   font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+a {
+  color: #000;
 }
 
 #Item {
