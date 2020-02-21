@@ -1,0 +1,84 @@
+<template>
+    <div class="AboutContainer">
+        <ToolbarComponent />
+        <div class="AboutMeContent">
+            <h4><strong>Contact Me</strong></h4>
+            <form action="mailto:yazantarifi1@hotmail.com">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+        <FooterComponent />
+    </div>
+</template>
+
+<script>
+import ToolbarComponent from '@/components/common/ToolbarComponent.vue'
+import FooterComponent from '@/components/common/FooterComponent.vue'
+
+export default {
+    components: {
+        ToolbarComponent,
+        FooterComponent
+    }
+}
+</script>
+
+<style scoped>
+
+.AboutContainer {
+    /* background-color: #262626; */
+  height: 700px;
+  margin: 0%;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+
+.AboutMeContent {
+    padding: 2em;
+    text-align: start;
+}
+
+h4 {
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+</style>

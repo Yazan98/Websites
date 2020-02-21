@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MainPageComponent from '../components/MainPageComponent.vue'
+import AboutMeComponent from '../components/AboutMePageComponent.vue'
+import ContactMeComponent from '../components/ContactMeCpmponent.vue'
 
 Vue.use(VueRouter)
 
@@ -9,6 +11,16 @@ const routes = [
     path: '/',
     name: 'home',
     component: MainPageComponent
+  },
+  {
+    path: '/contact',
+    name: 'home',
+    component: ContactMeComponent
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: AboutMeComponent
   },
   {
     path: '/projects',

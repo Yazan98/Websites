@@ -16,7 +16,7 @@
             <a class="nav-link" id="Item"><router-link to="/projects" class="p-2 text-black">Projects</router-link><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" id="Item"><router-link to="/skills" class="p-2 text-black">Skills</router-link><span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="Item"><router-link to="/about" class="p-2 text-black">About</router-link><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" id="Item"><router-link to="/contact" class="p-2 text-black">Contact</router-link><span class="sr-only">(current)</span></a>

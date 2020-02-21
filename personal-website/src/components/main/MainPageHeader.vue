@@ -10,7 +10,7 @@
           , I have a complete passion and super fast learning when trying new technologies
          Solid Understanding of mobile and Software life cycle (SDLC) with all architectures for mobile frameworks
       </p>
-      <button class="btn" onclick="window.open('https://github.com/Yazan98', '_blank');">Github Account</button>
+      <button class="btn" onclick="window.open('https://github.com/Yazan98', '_blank');">About Me</button>
       <div class="container">
       <div class="row">
         <div class="col-sm">
@@ -95,6 +95,9 @@ p {
   margin: 4px 2px;
   opacity: 0.6;
   transition: 0.3s;
+  color: black;
+    background-color: rgb(249, 215, 76);
+    box-shadow: 0px 5px 20px 0px rgba(249, 215, 76, 0.5);
 }
 
 .container {
@@ -119,11 +122,17 @@ p {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  background-color: rgb(249, 123, 139);
+  color: white;
+  box-shadow: 0px 5px 20px 0px rgba(249, 123, 139, 0.5);
 }
 
 #GIthub {
   background: #007bb5;
   color: white;
+  background-color: rgb(108, 108, 229);
+    box-shadow: 0px 5px 20px 0px rgba(108, 108, 229, 0.5);
+    color: white;
 }
 
 .col-sm {
