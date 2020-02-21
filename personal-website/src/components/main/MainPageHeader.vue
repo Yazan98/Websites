@@ -1,7 +1,6 @@
 <template>
   <div class="MainContainer">
     <!--Start Main Area-->
-    <!-- <particles-bg color="#262626" type="random" :bg="true" /> -->
     <ToolbarComponent />
     <div class="MainArea">
       <p>Frontend Developer</p>
@@ -12,6 +11,16 @@
          Solid Understanding of mobile and Software life cycle (SDLC) with all architectures for mobile frameworks
       </p>
       <button class="btn" onclick="window.open('https://github.com/Yazan98', '_blank');">Github Account</button>
+      <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <a href="https://www.linkedin.com/in/yazan-tarifi-106282192/" class="fa fa-linkedin"></a>
+        </div>
+        <div class="col-sm">
+            <a id="GIthub" href="https://github.com/Yazan98" class="fa fa-github"></a>
+        </div>
+      </div>
+    </div>
     </div>
     <!--End Main Area-->
   </div>
@@ -21,6 +30,7 @@
 
 import ToolbarComponent from '@/components/common/ToolbarComponent.vue'
 import { ParticlesBg } from "particles-bg-vue";
+import VueParticles from 'vue-particles'
 
 export default {
   name: "HelloWorld",
@@ -87,7 +97,39 @@ p {
   transition: 0.3s;
 }
 
+.container {
+  padding: 20px;
+  text-align: center;
+}
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+#GIthub {
+  background: #007bb5;
+  color: white;
+}
+
+.col-sm {
+  padding: 0%;
+  margin: 0%;
+}
 
 .btn:hover {opacity: 1}
 

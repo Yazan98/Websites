@@ -1,6 +1,7 @@
 <template>
   <div class="MainContainer">
     <HeaderComponent />
+    <AboutMeComponent />
     <SkillsComponent />
     <ServicesComponent />
     <ToolsMenuComponent />
@@ -15,6 +16,7 @@ import ServicesComponent from '@/components/main/ServicesComponent.vue'
 import FooterComponent from '@/components/common/FooterComponent.vue'
 import SkillsComponent from '@/components/main/SkillsComponent.vue'
 import ToolsMenuComponent from '@/components/main/ToolsMenu.vue'
+import AboutMeComponent from '@/components/main/AboutMeComponent.vue'
 
 export default {
   name: 'home',
@@ -23,7 +25,8 @@ export default {
     ServicesComponent,
     FooterComponent,
     SkillsComponent,
-    ToolsMenuComponent
+    ToolsMenuComponent,
+    AboutMeComponent
   }
 }
 </script>

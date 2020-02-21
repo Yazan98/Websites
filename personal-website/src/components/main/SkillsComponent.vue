@@ -1,6 +1,6 @@
 <template>
     <div class="SkillsContainer">
-        <h3>Skills</h3>
+        <h3>Abilities</h3>
         <div class="container">
             <div class="row">
                 <div class="col-sm">   
