@@ -20,9 +20,9 @@
                             <h4>Destiny App</h4>
                             <p>Restaurant Android Application Built on Vortex , Kotlin</p>
                         </div>
-                        <p id="Beta">Android Infrastructure</p>
-                        <p id="Beta">View Project</p>
-                        <p id="Beta">Github Repository</p>
+                        <p id="Beta">Android Infrastructure</p><br>
+                        <router-link to="/prjects/overview" id="Beta"><a>View Project</a></router-link>
+                        <a id="Beta" href="https://www.github.com/Yazan98/Destiny">Github Repository</a>
                     </div>
                 </div>
                 <div class="col-sm">
@@ -287,6 +287,12 @@ h4 {
   padding-top: 120%;
   
   transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+#Beta {
+    top: 50%;
+    bottom: 80%;
+    padding-left: 10px;
 }
 
 </style>
