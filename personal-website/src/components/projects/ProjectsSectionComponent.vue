@@ -21,7 +21,7 @@
                             <p>Restaurant Android Application Built on Vortex , Kotlin</p>
                         </div>
                         <p id="Beta">Android Infrastructure</p><br>
-                        <router-link to="/prjects/overview" id="Beta"><a>View Project</a></router-link>
+                        <router-link :to="{ name: 'project', params: {ProjectName: 'Destiny'} }" id="Beta"><a>View Project</a></router-link>
                         <a id="Beta" href="https://www.github.com/Yazan98/Destiny">Github Repository</a>
                     </div>
                 </div>

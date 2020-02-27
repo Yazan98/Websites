@@ -2,9 +2,9 @@
     <div class="ProjectComponent">
         <ToolbarComponent />
         <div v-for="project in projects" :key="project">
-            <div v-if="project.ProjectName === 'Destiny'">
+            <div v-if="project.ProjectName === ProjectName">
                 <ProjectDetailsComponent 
-                    ProjectName = "project.ProjectName"
+                    ProjectName = "Destiny"
                 />
             </div>
         </div>
@@ -23,6 +23,7 @@ export default {
         FooterComponent,
         ProjectDetailsComponent
     },
+    name: 'project',
     props: ['ProjectName'],
     data : function() {
         return {

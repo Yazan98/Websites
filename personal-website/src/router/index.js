@@ -33,8 +33,9 @@ const routes = [
   },
   {
     path: '/prjects/overview',
-    name: 'projects',
-    component: ProjectComponent
+    name: 'project',
+    component: ProjectComponent,
+    props: true
   }
 ]
 
