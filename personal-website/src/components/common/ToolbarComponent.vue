@@ -21,7 +21,7 @@
           <li class="nav-item active">
             <a class="nav-link" id="Item"><router-link to="/contact" class="p-2 text-black">Contact</router-link><span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown
             </a>
@@ -31,7 +31,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>

@@ -2,7 +2,7 @@
   <div class="MainContainer">
     <HeaderComponent />
     <AboutMeComponent />
-    <SkillsComponent />
+    <!-- <SkillsComponent /> -->
     <ServicesComponent />
     <ToolsMenuComponent />
     <FooterComponent />
