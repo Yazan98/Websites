@@ -9,9 +9,9 @@
                             <h4>Vortex</h4>
                             <p>Base Infastructure To Build Android , SpringBoot Applications With Kotlin Language , Latest Technologies</p>
                         </div>
-                        <p id="Beta">Android Infrastructure</p>
+                        <!-- <p id="Beta">Android Infrastructure</p>
                         <p id="Beta">View Project</p>
-                        <p id="Beta">Github Repository</p>
+                        <p id="Beta">Github Repository</p> -->
                     </div>
                 </div>
                 <div class="col-sm">
@@ -20,9 +20,9 @@
                             <h4>Destiny App</h4>
                             <p>Restaurant Android Application Built on Vortex , Kotlin</p>
                         </div>
-                        <p id="Beta">Android Infrastructure</p><br>
+                        <!-- <p id="Beta">Android Infrastructure</p><br>
                         <router-link :to="{ name: 'project', params: {ProjectName: 'Destiny'} }" id="Beta"><a>View Project</a></router-link>
-                        <a id="Beta" href="https://www.github.com/Yazan98/Destiny">Github Repository</a>
+                        <a id="Beta" href="https://www.github.com/Yazan98/Destiny">Github Repository</a> -->
                     </div>
                 </div>
                 <div class="col-sm">
@@ -31,9 +31,9 @@
                             <h4>Destiny Api</h4>
                             <p>Restaurant Api With SpringBoot Built On Vortex-Spring, Kotlin</p>
                         </div>
-                        <p id="Beta">Android Infrastructure</p>
+                        <!-- <p id="Beta">Android Infrastructure</p>
                         <p id="Beta">View Project</p>
-                        <p id="Beta">Github Repository</p>
+                        <p id="Beta">Github Repository</p> -->
                     </div>
                 </div>
             </div>
@@ -44,9 +44,9 @@
                             <h4>Thentrom</h4>
                             <p>Intellij Plugin To Change IDE Theme To Orange Color (Kotlin Apps)</p>
                         </div>
-                        <p id="Beta">Android Infrastructure</p>
+                        <!-- <p id="Beta">Android Infrastructure</p>
                         <p id="Beta">View Project</p>
-                        <p id="Beta">Github Repository</p>
+                        <p id="Beta">Github Repository</p> -->
                     </div>
                 </div>
                 <div class="col-sm">
@@ -55,9 +55,9 @@
                             <h4>Wintrop</h4>
                             <p>Weather Android Application Built On Vortex , Kotlin, Mvvm</p>
                         </div>
-                        <p id="Beta">Android Infrastructure</p>
+                        <!-- <p id="Beta">Android Infrastructure</p>
                         <p id="Beta">View Project</p>
-                        <p id="Beta">Github Repository</p>
+                        <p id="Beta">Github Repository</p> -->
                     </div>
                 </div>
                 <div class="col-sm">
@@ -66,9 +66,9 @@
                             <h4>Actor</h4>
                             <p>SpringBoot Annotation Processor To Generate Postman Collections From Controllers</p>
                         </div>
-                        <p id="Beta">Android Infrastructure</p>
+                        <!-- <p id="Beta">Android Infrastructure</p>
                         <p id="Beta">View Project</p>
-                        <p id="Beta">Github Repository</p>
+                        <p id="Beta">Github Repository</p> -->
                     </div>
                 </div>
             </div>
@@ -91,9 +91,9 @@
                             <h4>Dirasati</h4>
                             <p>Subjects Tutorials With Chat Experience, Kotlin , Atto</p>
                         </div>
-                        <p id="Beta">Android Infrastructure</p>
+                        <!-- <p id="Beta">Android Infrastructure</p>
                         <p id="Beta">View Project</p>
-                        <p id="Beta">Github Repository</p>
+                        <p id="Beta">Github Repository</p> -->
                     </div>
                 </div>
                 <div class="col-sm">
@@ -102,9 +102,9 @@
                             <h4>Atto</h4>
                             <p>Base Code To Build Android Applications With Mvp Implementation</p>
                         </div>
-                        <p id="Beta">Android Infrastructure</p>
+                        <!-- <p id="Beta">Android Infrastructure</p>
                         <p id="Beta">View Project</p>
-                        <p id="Beta">Github Repository</p>
+                        <p id="Beta">Github Repository</p> -->
                     </div>
                 </div>
             </div>
@@ -116,9 +116,9 @@
                             <h4>Ktor App</h4>
                             <p>Api Example About Ktor Framework , Mongo Database</p>
                         </div>
-                        <p id="Beta">Android Infrastructure</p>
+                        <!-- <p id="Beta">Android Infrastructure</p>
                         <p id="Beta">View Project</p>
-                        <p id="Beta">Github Repository</p>
+                        <p id="Beta">Github Repository</p> -->
                     </div>
                 </div>
                 <div class="col-sm">
@@ -127,9 +127,9 @@
                             <h4>Atto Gradle</h4>
                             <p>Gradle Plugin To Config Atto Android Dependencies</p>
                         </div>
-                        <p id="Beta">Android Infrastructure</p>
+                        <!-- <p id="Beta">Android Infrastructure</p>
                         <p id="Beta">View Project</p>
-                        <p id="Beta">Github Repository</p>
+                        <p id="Beta">Github Repository</p> -->
                     </div>
                 </div>
                 <div class="col-sm">
@@ -138,9 +138,9 @@
                             <h4>Bookie</h4>
                             <p>Simple Api With SpringBoot (Books), Java , Standered Implementation, MySql</p>
                         </div>
-                        <p id="Beta">Android Infrastructure</p>
+                        <!-- <p id="Beta">Android Infrastructure</p>
                         <p id="Beta">View Project</p>
-                        <p id="Beta">Github Repository</p>
+                        <p id="Beta">Github Repository</p> -->
                     </div>
                 </div>
             </div>
